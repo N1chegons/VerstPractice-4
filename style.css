@@ -1,0 +1,309 @@
+.header {
+   font-family: 'Montserrat', sans-serif;
+   background-image: url('Img/bgc.png');
+   background-repeat: no-repeat;
+   background-size: 100% 917px;
+   height: 100vh;
+
+}
+
+
+.top-header {
+   padding-bottom: 20px;
+}
+
+.header-info {
+   padding-top: 30px;
+   margin-left: 150px;
+   margin-right: 150px;
+   color: #ffff;
+}
+
+.top-adr-number {
+   font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 13px;
+   margin-right: 617px;
+  
+}
+
+.top-numb-number {
+   font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 13px; 
+   
+}
+
+.col {
+   border: 1px solid #ffff;
+   padding: 10px 10px;
+   transition: background-color 1s linear;
+}
+
+.col:hover {
+   background-color: rgb(78, 78, 78);
+   opacity:3;
+}
+
+.col:first-child {
+   border-left: none;
+}
+.col:last-child {
+   border-right: none;
+}
+
+.col a {
+   color: #ffff;
+   text-decoration: none;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 14px;
+
+   transition: color 1s linear;
+
+}
+
+.col a:hover {
+   color: #ff5252;
+
+}
+
+
+.buttons-headers {
+   margin-top: 580px;
+}
+
+.buttons-headers button {
+   border:none;
+   background-color:#99862A;
+   padding: 12px 30px;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 20px;
+   color: #ffff;
+   border-radius: 5px;
+   margin-right: 30px;
+
+   transition: background-color 1s linear;
+
+}
+
+.buttons-headers button:hover {
+   background-color:#423909;
+
+}
+
+
+/*-----INFODESC------*/
+
+.info-desc {
+   background-color:#282828;
+}
+
+
+.info-block {
+   padding-top: 160px;
+   color:#ffff; 
+   font-family: 'Playfair Display';
+   font-size: 36px;
+}
+
+
+.info-desc{
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   margin-top: -1px;
+   padding-left: 30px;
+   padding-bottom: 50px;
+}
+
+.info-desc p {
+   width: 733px;
+   margin-left: 160px;
+}
+
+.line {
+   margin-top: 40px;
+   border:1px solid #fff;
+   width: 160px;
+   margin-left: 475px;
+   padding-bottom: 40px;
+   border-left:none;
+   border-right:none;
+}
+
+.info-desc img {
+   padding-bottom: 100px;
+}
+
+
+
+.yr-vino {
+   background-color: #E6E3C4;
+   margin-top: -80px;
+   display: flex;
+}
+
+.vino-block {
+   width: 800px;
+   margin: 80px 40px;
+   padding: 60px;
+   display: flex;
+}
+
+.title-vino-yr {
+   font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 13px;
+
+}
+
+
+.border-bino {
+   width: 1100px;
+   border:1px solid #998431;
+   margin-bottom: 60px;
+   margin-top: 80px;
+}
+
+
+.glob-title-vino {
+   font-family: 'Playfair Display';
+   font-size: 36px;
+   color: #282828;
+   font-weight: 700;
+}
+
+
+.desc-yr-vino {
+   font-family: 'Montserrat';
+   font-weight: 500;
+   font-size: 13px;
+   width: 445px;
+   margin-top: 60px;
+}
+
+.yr-vino img:first-child {
+   margin-top: 30px;
+}
+
+.img-vin {
+   Width:540px;
+   Height:500px;
+   margin-left: -540px;
+   margin-top: 140px;
+}
+
+
+.podrob-yr {
+   margin-top: 45px;
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 16px;
+   padding: 15px 30px;
+   color:#ffff;
+
+
+   border:none;
+   background-color:#998431;
+   
+   transition: background-color 1s linear;
+}
+
+.podrob-yr:hover {
+   background-color:#423909;
+
+
+}
+
+
+/*-------------Registr----------*/
+
+.register-vino {
+   background-color: #282828;
+   padding: 100px 0 100px 0;
+}
+
+.register-vino span {
+   font-family: 'Playfair Display';
+   font-size: 36px;
+   color:#ffff;
+}
+
+.register-vino p {
+   font-family: 'Montserrat';
+   font-weight: 400;
+   font-size: 16px;
+   color:#ffff;
+   text-align: center;
+   width: 850px;
+   padding-left: 290px;
+   padding-top: 80px;
+}
+
+
+.input-reg {
+   margin-top: 80px;
+   margin-left: 372px;
+}
+
+.name-reg {
+   margin-right: 30px;
+   margin-bottom: 40px;
+   border:none;
+   outline: none;
+   background-color: #282828;
+   border-bottom: 1px solid #ffff;
+   width: 255px;
+   color:#ffff;
+   padding-bottom: 10px;
+}
+
+
+.phonenumb-reg {
+   margin-right: 30px;
+   margin-bottom: 40px;
+   border:none;
+   outline: none;
+   background-color: #282828;
+   border-bottom: 1px solid #ffff;
+   width: 260px;
+   color:#ffff;
+   padding-bottom: 10px;
+}
+
+.adress-reg {
+   margin-right: 30px;
+   margin-bottom: 40px;
+   border:none;
+   outline: none;
+   background-color: #282828;
+   border-bottom: 1px solid #ffff;
+   width: 555px;
+   color:#ffff;
+   padding-bottom: 10px;
+}
+
+
+.zapic-reg {
+    margin-top: 30px;
+    margin-left: 41px;
+    padding: 12px 220px;
+    background-color: #282828;
+    border-color: #fff;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   color:#fff;
+
+   transition: background-color 1s linear;
+}
+
+
+.zapic-reg:hover {
+   background-color: #555555;
+}
